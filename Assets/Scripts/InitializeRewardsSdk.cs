@@ -4,6 +4,7 @@ using Squaretwo;
 
 public class InitializeRewardsSdk : MonoBehaviour {
 
+  public bool isProductionBuild;
   public string vendorId;
   public string appId;
 
@@ -38,7 +39,7 @@ public class InitializeRewardsSdk : MonoBehaviour {
         throw new UnityException("Missing vendor id");
       }
 
-      await S2RewardsSdk.Initialize(vendorId, appId, true);
+      await S2RewardsSdk.Initialize(vendorId, appId, isProductionBuild);
 
       onInitializeSuccess?.Invoke();
     } catch (System.Exception exception) {

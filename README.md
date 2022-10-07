@@ -5,7 +5,7 @@ Currently, only iOS is suppported, with Android support slated for the future.
 
 ## Rewards Example Scene
 
-A minimalistic example scene is placed under `Packages/co.squaretwo.rewardssdk/Assets/Scenes/`. You can open and run it to see how your code can interact with the Rewards SDK.
+A minimalistic example scene is placed under `Packages/co.squaretwo.rewardssdk/Assets/Scenes/`. To view it, copy the scene by dragging it from the package directory to your game's Assets folder. You can now open and run it to see how your code can interact with the Rewards SDK. Since the SDK Example Scene and Rewards Prefab rely upon Text Mesh Pro, the scene may require you to install TMP Essentials on first open.
 
 ## Package Manager
 
@@ -23,7 +23,7 @@ This plugin can be imported using the Package Manager, by adding the following e
 
 ## Rewards Prefab
 
-For a quick start with a prebuilt rewards canvas, you will find a prefab under `Packages/co.squaretwo.rewards-sdk-unity/Assets/Prefabs/`. Drag and drop this into your desired scene. Click on the prefab instance, and provide the following in the inspector: 
+For a quick start with a prebuilt rewards canvas, you will find a prefab under `Packages/co.squaretwo.rewards-sdk-unity/Assets/Prefabs/`. Drag and drop this into your desired scene, and install TMP Essentials (if needed). Click on the prefab instance, and provide the following in the inspector: 
 
 `Vendor Id` - This will be the vendor identifier provided to you by Squaretwo
 
