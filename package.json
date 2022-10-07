@@ -1,9 +1,9 @@
 {
-  "name": "co.squaretwo.rewardssdk",
+  "name": "co.squaretwo.rewards-sdk-unity",
   "version": "0.0.1",
   "displayName": "Squaretwo Rewards SDK",
   "description": "Powering the real value behind points",
-  "unity": "2019.1",
+  "unity": "2019.4",
   "unityRelease": "0b5",
   "documentationUrl": "https://www.squaretwo.co/",
   "changelogUrl": "https://www.squaretwo.co/",

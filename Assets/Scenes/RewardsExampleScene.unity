@@ -4282,11 +4282,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7663416711287745844, guid: daab16d2c4e7742b68b32f6fa090068e, type: 3}
       propertyPath: appId
-      value: 1e9f4f0c-704c-4ac6-b020-71b51338e259
+      value: d3fd9be4-cd32-4910-a3f9-d7b7c3415022
       objectReference: {fileID: 0}
     - target: {fileID: 7663416711287745844, guid: daab16d2c4e7742b68b32f6fa090068e, type: 3}
       propertyPath: vendorId
-      value: apptout
+      value: internal
       objectReference: {fileID: 0}
     - target: {fileID: 7663416711287745844, guid: daab16d2c4e7742b68b32f6fa090068e, type: 3}
       propertyPath: onInitializeFailure.m_PersistentCalls.m_Calls.Array.size

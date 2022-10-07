@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunks2sdk=self.webpackChunks2sdk||[]).push([[719],{719:function(s,u,e){e.r(u);var n=e(1413),t=(e(390),e(2650)),a=e.n(t),f=e(8826),k=(e(1505),e(2559));u.default=function(s){return(0,k.jsx)(a(),(0,n.Z)((0,n.Z)({},s),{},{firebaseAuth:f.Z.auth()}))}}}]);
-//# sourceMappingURL=719.02348d26.chunk.js.map

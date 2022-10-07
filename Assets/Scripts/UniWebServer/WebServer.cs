@@ -15,7 +15,7 @@ namespace UniWebServer
         public readonly int port = 0;
         public readonly  int workerThreads = 2;
         public readonly bool processRequestsInMainThread = true;
-        public bool logRequests = true;
+        public bool logRequests = false;
 
         public event System.Action<Request,Response> HandleRequest;
 

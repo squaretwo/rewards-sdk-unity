@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunks2sdk=self.webpackChunks2sdk||[]).push([[719],{719:function(u,e,n){n.r(e),n.d(e,{PhoneAuthProvider:function(){return f}});var t=n(1413),r=(n(390),n(2650)),s=n.n(r),h=n(8826),a=(n(1505),n(2559)),f=h.Z.auth.PhoneAuthProvider;e.default=function(u){return(0,a.jsx)(s(),(0,t.Z)((0,t.Z)({},u),{},{firebaseAuth:h.Z.auth()}))}}}]);
+//# sourceMappingURL=719.16fafbe5.chunk.js.map
