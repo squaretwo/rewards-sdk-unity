@@ -288,7 +288,7 @@ namespace Squaretwo
           }
 
           _webViewObject.EvaluateJS(js);
-          _webViewObject.SetURLPattern("", "", $"^(?:(?!recaptcha|{ Regex.Escape(_sdkUrl) }).)*$");
+          _webViewObject.SetURLPattern("", "", $"^(?:(?!firebaseapp|recaptcha|{ Regex.Escape(_sdkUrl) }).)*$");
         },
 
         //separated: true,
