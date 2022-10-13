@@ -17,6 +17,7 @@ namespace Squaretwo
   public class UserData
   {
     public string id;
+    public bool isSmsVerified;
     public int tickets;
     public int tokens;
     public int inboxCount;
@@ -402,16 +403,20 @@ namespace Squaretwo
       return tickets;
     }
 
-    public static async Task<bool> VerifyUser()
-    {
-      var result = await SendMessageWithResponse("verifyUser", "null", 120000);
+    public static async Task VerifyUser() {
+      var result = await SendMessageWithResponse("verifyUser", "null", DEFAULT_NETWORK_TIMEOUT_MS);
 
-      if (result.messageError != null)
-      {
+      if (result.messageError != null) {
         throw new SdkException(result.messageError);
       }
+    }
 
-      return (bool)result.messageBody;
+    public static async Task SignOut() {
+      var result = await SendMessageWithResponse("signOut", "null", DEFAULT_NETWORK_TIMEOUT_MS);
+
+      if (result.messageError != null) {
+        throw new SdkException(result.messageError);
+      }
     }
 
     private static string HandleMessage(string message)
@@ -480,6 +485,7 @@ namespace Squaretwo
 
           _user = new UserData {
             id = dict["id"] as string,
+            isSmsVerified = (bool)dict["isSmsVerified"],
             tickets = Convert.ToInt32(dict["tickets"]),
             tokens = Convert.ToInt32(dict["tokens"]),
             inboxCount = Convert.ToInt32(dict["inboxCount"])
