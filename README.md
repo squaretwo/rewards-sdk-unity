@@ -107,7 +107,7 @@ If you'd like more fine-grained customization for your Rewards SDK integration, 
 | <code>static async Task<bool> ConfirmIap(string productId, string transactionId, string receiptData)</code> | Returns a task that returns a bool indicating whether the product was successfully saved and an inbox item granted. This will return true if the product had already been saved in the past. |
 | <code>static Task StartGameWithTokens(int tokenCount)</code> | Spends `{tokenCount}` tokens to begin a game |
 | <code>static Task<int> CollectGameTickets(int scorePercent) | Collects game tickets from the current active game and returns a task containing the ticket count. `scorePercent` is an integer between 0 and 100 representing the percentage of maximum reward to grant. |
-| <code>static Task VerifyUser()</code> | If the user is not sms verified, this will show the sms authentication flow. Use this before showing any rewarded videos. |
+| <code>static Task VerifyUser()</code> | If the user is not sms verified, this will show the sms authentication flow. Call this before allowing users to make in-app purchases. |
 | <code>static Task SignOut()</code> | Signs the active user out of the rewards SDK. |
 
 
