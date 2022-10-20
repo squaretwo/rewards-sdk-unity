@@ -3,7 +3,7 @@
 rewards-sdk-unity is a plugin for Unity 2019.4 and greater that enables Unity games to integrate real world rewards for their games.
 Currently, only iOS is suppported, with Android support slated for the future.
 
-## Package Manager
+## Install the Plugin
 
 This plugin can be imported using the Package Manager, by adding the following entry in your `Packages/manifest.json`:
 
