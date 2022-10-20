@@ -3,10 +3,6 @@
 rewards-sdk-unity is a plugin for Unity 2019.4 and greater that enables Unity games to integrate real world rewards for their games.
 Currently, only iOS is suppported, with Android support slated for the future.
 
-## Rewards Example Scene
-
-A minimalistic example scene is placed under `Packages/co.squaretwo.rewardssdk/Assets/Scenes/`. To view it, copy the scene by dragging it from the package directory to your game's Assets folder. You can now open and run it to see how your code can interact with the Rewards SDK. Since the SDK Example Scene and Rewards Prefab rely upon Text Mesh Pro, the scene may require you to install TMP Essentials on first open.
-
 ## Package Manager
 
 This plugin can be imported using the Package Manager, by adding the following entry in your `Packages/manifest.json`:
@@ -20,6 +16,10 @@ This plugin can be imported using the Package Manager, by adding the following e
   }
 }
 ```
+
+## Rewards Example Scene
+
+A minimalistic example scene is placed under `Packages/co.squaretwo.rewardssdk/Assets/Scenes/`. To view it, copy the scene by dragging it from the package directory to your game's Assets folder. You can now open and run it to see how your code can interact with the Rewards SDK. Since the SDK Example Scene and Rewards Prefab rely upon Text Mesh Pro, the scene may require you to install TMP Essentials on first open.
 
 ## Rewards Prefab
 
